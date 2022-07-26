@@ -1,11 +1,12 @@
 export default function Main(){
     return(
         <main>
-            <div class="nav--header">
-                <img src="/images/trollFace.png" className="logo" />
-                <h2>Meme Generator</h2>
-            </div>
-            <h4>React Course - Project 3</h4>
+                <form action="" className="form">
+                    <input className="form--input" type='text' placeholder="First Text"/>
+                    <input className="form--input" type='text' placeholder="Last Text"/>
+                    <button className="form--button">Get a new meme image  🖼</button>
+                </form>
+            
         </main>
     )
 }
